@@ -4,6 +4,10 @@ This repository contains the code used for the paper "**When can you trust your 
 
 The paper can be found at this [link](https://doi.org/10.1007/978-3-032-08327-2_11).
 
+
+A summary of the proposed pipeline is presented in the following:
+![pipeline](https://github.com/ilariavascotto/XAI_robustness_analysis/blob/main/img/pipeline.png)
+
 ### Folders and File Description
 
 The script ```neighbourhood_attr.py``` generates the neighbourhoods and the IG, DL and LRP attributions. These are then aggregated via ```aggregation.py``` and the robustness score is computed.
@@ -20,5 +24,3 @@ Example:
 
 Note that only the results used for the paper images are shared in this repository, due to size-limit requirements. Results should be computed using the hyperparameters and neighbouhood specification details presented in the Appendix.
 
-A summary of the proposed pipeline is presented in the following:
-![pipeline](https://github.com/ilariavascotto/XAI_robustness_analysis/blob/main/img/pipeline.png)
