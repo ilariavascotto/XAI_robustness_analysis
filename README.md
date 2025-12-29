@@ -1,6 +1,8 @@
 # When Can You Trust Your Explanations? A Robustness Analysis On Feature Importances
 
-This repository contains the code used for the paper "**When can you trust your explanations? A robustness analysis on feature importances**" (*Vascotto, Rodriguez, Bonaita, Bortolussi*), submitted at the 3rd World Conference on eXplainable Artificial Intelligence.
+This repository contains the code used for the paper "**When can you trust your explanations? A robustness analysis on feature importances**" (*Vascotto, Rodriguez, Bonaita, Bortolussi*), presented at the 3rd World Conference on eXplainable Artificial Intelligence, held in Istanbul (Turkey) on July 9-11, 2025.
+
+The paper can be found at this [link](https://doi.org/10.1007/978-3-032-08327-2_11).
 
 ### Folders and File Description
 
@@ -17,3 +19,6 @@ Example:
 > python aggregation.py --dataset adult --model_name model1 --type test --agg ensemble --neigh medoid
 
 Note that only the results used for the paper images are shared in this repository, due to size-limit requirements. Results should be computed using the hyperparameters and neighbouhood specification details presented in the Appendix.
+
+A summary of the proposed pipeline is presented in the following:
+![pipeline](https://github.com/ilariavascotto/XAI_robustness_analysis/blob/main/img/pipeline.png)
